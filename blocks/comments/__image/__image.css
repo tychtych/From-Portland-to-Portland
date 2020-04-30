@@ -1,0 +1,16 @@
+.comment__image {
+    max-width: 97px;
+    width: 100%;
+    max-height: 97px;
+    border-radius: 50%;
+}
+
+@media (max-width : 768px) {
+
+    /* стили для планшета */
+    .comment__image{
+
+        align-items: center;
+        
+    }
+}

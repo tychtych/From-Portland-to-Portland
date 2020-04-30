@@ -1,0 +1,7 @@
+.intro__content-row {
+    display: flex;
+    flex-direction: row;
+    max-width: 984px;
+    align-items: baseline;
+    margin-top: 35px;
+}

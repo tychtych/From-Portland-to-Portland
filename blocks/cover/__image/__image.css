@@ -1,0 +1,8 @@
+.cover__image:hover {
+    background-color: rgba(0, 0, 0, 0.358);
+}
+
+.cover__image {
+    opacity: 0.5;
+    
+}

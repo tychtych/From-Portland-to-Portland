@@ -1,0 +1,19 @@
+@import url('__title/__title.css');
+@import url('__subtitle/__subtitle.css');
+@import url('__image/__image.css');
+@import url('__caption/__caption.css');
+
+
+.lead {
+    min-width: 320px;
+    max-width: 985px;
+    width: 100%;
+    margin: auto;
+}
+
+@media screen and (max-width : 1024px) {
+    /* стили для планшета */
+    .lead {
+        max-width: 928px;
+    }
+}

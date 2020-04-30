@@ -1,0 +1,72 @@
+@import url('_item_kamchatka/_item_kamchatka.css');
+@import url('_item_observatory/_item_observatory.css');
+
+.video__item {
+    width:100%;
+    padding-bottom: 30%;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    text-decoration: none;
+    color: #FFFFFF;
+    overflow: hidden;
+    border-radius: 2%;
+    max-width: 583px;
+}
+
+@media screen and (max-width:1440px) {
+    .video__item {
+        padding-bottom: 27.3%;
+    }
+}
+
+
+
+@media screen and (max-width:1280px) {
+    .video__item {
+        max-width: 583px;
+        width: 100%;
+        padding-bottom: 29%;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .video__item {
+        max-width: 583px;
+        width: 100%;
+        padding-bottom: 31%;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+
+    /* стили для планшета */
+    .video__item {
+        max-width: 352px;
+        width: 100%;
+        padding-bottom: 27.8%;
+    }
+}
+
+@media screen and (max-width:710px) {
+
+    /* стили для планшета */
+    .video__item {
+        flex-direction: column;
+        max-width: 343px;
+        padding-bottom: 58.5%;
+        margin-top: 11px;
+    }
+}
+
+@media screen and (max-width:320px) {
+
+    /* стили для планшета */
+    .video__item {
+        flex-direction: column;
+        max-width: 288px;
+        padding-bottom: 66%;
+        margin-top: 8px;
+    }
+}

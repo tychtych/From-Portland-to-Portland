@@ -1,0 +1,37 @@
+.intro__statistics-info {
+    list-style: none;
+    text-decoration: none;
+    margin-top: 16px;
+    padding-left: 0;
+    margin-bottom: 97px;
+}
+
+
+@media (max-width : 1024px) {
+    .intro__statistics-info {
+        margin-top: 21px;
+    }
+}
+
+@media (max-width : 768px) {
+    .intro__statistics-info {
+        margin-top: 23px;
+        margin-bottom: 92px;
+    }
+}
+
+@media (max-width : 375px) {
+    .intro__statistics-info {
+        margin-top: 7px;
+        padding-bottom: 64px;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width : 320px) {
+    .intro__statistics-info {
+        margin-top: 35px;
+        padding-bottom: 64px;
+        margin-bottom: 0;
+    }
+}

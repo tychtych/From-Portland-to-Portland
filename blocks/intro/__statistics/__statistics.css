@@ -1,0 +1,29 @@
+.intro__statistics {
+    font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 20px;
+margin-top:0;
+margin-bottom: 0;
+}
+
+@media screen and (max-width : 375px) {
+    /* стили для среднего смартфона */
+    .intro__statistics {
+        max-width: 343px;
+        width: 100%;
+        font-size: 12px;
+        line-height: 19px;
+
+    }
+}
+
+@media screen and (max-width: 320px) {
+    /* стили для среднего смартфона */
+    .intro__statistics {
+        max-width: 340px;
+        width: 100%;
+        font-size: 12px;
+        line-height: 19px;
+    }
+}

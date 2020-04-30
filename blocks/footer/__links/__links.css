@@ -1,0 +1,23 @@
+.footer__links {
+    max-width: 722px;
+    min-width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    
+    /* To remove default bottom margin */
+    padding: 0;
+}
+
+
+
+@media (max-width : 480px) {
+    /* стили для планшета */
+    .footer__links {
+        display: flex;
+        flex-direction: column;
+    }
+}

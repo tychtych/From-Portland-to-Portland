@@ -1,0 +1,44 @@
+.video__text {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 3;
+    justify-content: flex-end;
+    bottom: 30px;
+    left: 30px;
+}
+
+
+@media screen and (max-width:768px) {
+
+    /* стили для планшета */
+    .video__text {
+        max-width: 352px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        bottom: 24px;
+        left: 24px;
+        right: 0;
+        
+    }
+}
+
+
+@media screen and (max-width:320px) {
+
+    /* стили для планшета */
+    .video__text {
+        max-width: 288px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        bottom: 16px;
+        left: 16px;
+        
+
+
+    }
+}

@@ -1,0 +1,118 @@
+@import url('__copyright/__copyright.css');
+@import url('__item/__item.css');
+@import url('__link/__link.css');
+@import url('__links/__links.css');
+
+.footer {
+    
+    
+    max-width: 1184px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 34px;   
+}
+
+@media (max-width : 1280px) {
+
+    /* стили для планшета */
+    .footer {
+        width: calc(100% - 96px);
+        
+    }
+}
+
+@media (max-width : 1024px) {
+
+    /* стили для планшета */
+    .footer {
+        width: calc(100% - 100px);
+        padding-bottom: 24px;
+    }
+}
+
+@media (max-width : 900px) {
+
+    /* стили для планшета */
+    .footer {
+        max-width: 800px;
+        width: calc(100% - 25px);
+        padding-bottom: 24px;
+    }
+}
+
+@media (max-width : 768px) {
+
+    /* стили для планшета */
+    .footer {
+        max-width: 722px;
+        width: calc(100% - 46px);
+        padding-bottom: 24px;
+    }
+}
+
+@media (max-width : 693px) {
+
+    /* стили для планшета */
+    .footer {
+        
+        width: calc(100% - 15px);
+        
+    }
+}
+
+@media (max-width : 630px) {
+
+    /* стили для планшета */
+    .footer {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: flex-start;
+        padding-bottom: 24px;
+        width: calc(100% - 16px);
+        
+    }
+}
+
+@media (max-width : 375px) {
+
+    /* стили для планшета */
+    .footer {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: flex-start;
+        padding-bottom: 24px;
+        width: calc(100% - 16px);
+        
+    }
+}
+
+@media (max-width : 375px) {
+
+    /* стили для планшета */
+    .footer {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: flex-start;
+        padding-left: 16px;
+    
+    }
+}
+
+@media (max-width : 320px) {
+
+    /* стили для планшета */
+    .footer {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: flex-start;
+        padding-left: 16px;
+    
+    }
+}

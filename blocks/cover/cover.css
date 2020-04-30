@@ -1,0 +1,21 @@
+@import url('__image/__image.css');
+@import url('__link/__link.css');
+@import url('__subtitle/__subtitle.css');
+@import url('__title/__title.css');
+@import url('__text/__text.css');
+
+.cover {
+    max-width: 1184px;
+    min-width: 320px;
+    position: relative;
+    display: flex;
+    margin: auto;
+   width: 100%;
+   
+}
+
+
+.cover:hover .cover__image {
+    opacity: 0.2;
+}
+

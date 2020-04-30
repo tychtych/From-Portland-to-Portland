@@ -1,0 +1,40 @@
+.lead__image {
+    min-height: 554px;
+    max-width: 984px;
+    width: 100%;
+    object-fit: cover;
+    margin: auto;
+    margin-top: 71px;
+    display: flex;
+}
+
+/* Починить высоту картинки */
+@media screen and (max-width : 1023px) {
+    .lead__image {
+        min-height: 211px;
+    }
+}
+
+@media screen and (max-width : 768px) {
+
+    /* стили для планшета */
+    .lead__image {
+        max-height: 420px;
+    }
+}
+
+@media screen and (max-width : 375px) {
+
+    /* стили для малого смартфона */
+    .lead__image {
+        margin-top: 31px;
+    }
+}
+
+@media screen and (max-width : 320px) {
+
+    /* стили для малого смартфона */
+    .lead__image {
+        margin-top: 32px;
+    }
+}

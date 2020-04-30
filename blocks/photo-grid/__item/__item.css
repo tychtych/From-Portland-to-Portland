@@ -1,0 +1,53 @@
+.photo-grid__item {
+    max-width: 352px;
+    
+    width: 100%;
+    
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1280px) {
+
+    /* стили для среднего смартфона */
+    .photo-grid__item  {
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    /* стили для среднего смартфона */
+    .photo-grid__item  {
+        max-width: 300px;
+    }
+}
+
+/*
+@media screen and (max-width: 887px) {
+
+    /* стили для среднего смартфона 
+    .photo-grid__item  {
+        max-width: 300px;
+    }
+}
+*/
+
+@media screen and (max-width: 900px) {    
+    .photo-grid__item  {   
+        max-width: 352px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .photo-grid__item  {
+        max-width: 343px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .photo-grid__item  {
+        max-width: 288px;
+    }
+}

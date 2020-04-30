@@ -1,0 +1,23 @@
+.cover__text {
+    max-width: 1184px;
+    min-width: 288px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding-top: 18%;
+}
+
+@media (max-width : 1280px) {
+     
+    .cover__text {
+         padding-top: 15%;
+    } 
+ }
+
+ @media (max-width : 375px) {
+     
+    .cover__text {
+         padding-top: 9%;
+    } 
+ }

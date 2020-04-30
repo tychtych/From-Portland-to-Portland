@@ -1,0 +1,40 @@
+@import url('__container/__container.css');
+@import url('__image/__image.css');
+@import url('__quote/__quote.css');
+@import url('__author/__author.css');
+@import url('comment/comment.css');
+@import url('../content-title/content-title.css');
+@import url('../content-subtitle/content-subtitle.css');
+
+
+.comments {
+    max-width: 1184px;
+    margin: auto;
+    width: calc(100% - 96px);
+}
+
+
+
+@media screen and (max-width:400px) {
+
+    .comments {
+       max-width: 343px;
+    }
+}
+
+@media screen and (max-width:375px) {
+
+    .comments {
+       width: calc(100% - 32px);
+    }
+}
+
+@media screen and (max-width:320px) {
+
+    .comments {
+       width: calc(100% - 32px);
+    }
+}
+
+
+

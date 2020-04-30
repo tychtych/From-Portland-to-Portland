@@ -1,0 +1,12 @@
+.video__image {
+    max-width: 583px;
+    height: 323px;
+    position: relative;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.video__image {
+    opacity: 0.5;
+    transition: opacity 0.5s linear;
+}

@@ -1,0 +1,42 @@
+.video__icon-play {
+    max-width: 41px;
+    top: 30px;
+    left: 30px;
+    position: absolute;
+    z-index: 3;
+}
+
+@media screen and (max-width:768px) {
+
+    /* стили для планшета */
+    .video__icon-play {
+        max-width: 41px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 24px;  
+        left: 24px;
+    }
+}
+
+@media screen and (max-width:375px) {
+
+    /* стили для планшета */
+    .video__item-observatory {
+        max-width: 41px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 24px;  
+    }
+}
+
+@media screen and (max-width:320px) {
+
+    /* стили для планшета */
+    .video__icon-play {
+        
+        top:16px;  
+        left: 16px;
+    }
+}

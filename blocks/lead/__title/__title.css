@@ -1,0 +1,59 @@
+.lead__title {
+    max-width: 782px;
+    padding-top: 56px;
+    margin: auto;
+    font-size: 96px;
+    line-height: 93px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 900;
+    overflow-wrap: normal;
+}
+
+@media screen and (max-width: 768px) {
+    .lead__title {
+        max-width: 720px;
+        font-size: 96px;
+        line-height: 93px;
+    }
+}
+
+@media screen and (max-width: 675px) {
+    
+    .lead__title {
+        
+        font-size: 71px;
+        line-height: 93px;
+    }
+}
+
+
+@media screen and (max-width : 500px) {
+    /* стили для среднего смартфона */
+    .lead__title {
+        font-size: 40px;
+        line-height: 44px;
+        max-width: 494px;
+    }
+}
+
+
+@media screen and (max-width : 375px) {
+    /* стили для среднего смартфона */
+    .lead__title {
+        font-size: 40px;
+        line-height: 44px;
+        max-width: 338px;
+        width: 100%;
+        padding-top:49px;
+    }
+}
+
+@media screen and (max-width : 320px) {
+    /* стили для малого смартфона */
+    .lead__title {
+        font-size: 40px;
+        line-height: 44px;
+        padding-top: 50px;
+    }
+}

@@ -1,0 +1,38 @@
+.lead__caption {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    display: flex;
+    max-width: 636px;
+    position: relative;
+    padding-top: 10.87px;
+    margin-top: 0;
+}
+
+@media screen and (max-width : 1024px) {
+    /* стили для планшета */
+    .lead__caption {
+        padding-top: 16px;
+    }
+}
+
+@media (max-width : 900px) {
+    /* стили для планшета */
+    .lead__caption {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}
+
+@media (max-width : 375px) {
+    /* стили для смартфона */
+    .lead__caption {
+      padding-top: 8px;
+      margin-left: 16px;
+      margin-bottom: 0;
+      width: calc(100% - 32px);
+    }
+}

@@ -1,0 +1,13 @@
+.place__url-name {
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    max-width: 484px;
+    opacity: 1;
+    list-style: none;
+    color: #FFFFFF;
+}
+
+.place__url-name:hover {
+    opacity: 0.5;
+}

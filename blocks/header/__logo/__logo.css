@@ -1,0 +1,16 @@
+.header__logo {
+    max-width: 176.58px;
+    min-width: 142px;
+
+}
+
+
+@media (max-width : 500px) {
+
+    /* стили для планшета */
+    .header__logo {
+        max-width: 142px;
+    
+    }
+}
+

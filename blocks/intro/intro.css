@@ -1,0 +1,43 @@
+@import url('__title/__title.css');
+@import url('__subtitle/__subtitle.css');
+@import url('__content-row/__content-row.css');
+@import url('__text/__text.css');
+@import url('__text-bold/__text-bold.css');
+@import url('__text-author/__text-author.css');
+@import url('__statistics/__statistics.css');
+@import url('__statistics-info/__statistics-info.css');
+@import url('__statistics-bold/__statistics-bold.css');
+@import url('__data/__data.css');
+
+.intro {
+    min-width: 288px;
+    max-width: 984px;
+    width: 100%;
+    margin: auto;
+    
+}
+
+@media screen and (max-width : 1024px) {
+
+    /* стили для планшета */
+    .intro {
+        width: calc(100% - 96px);
+    }
+}
+
+@media screen and (max-width : 768px) {
+
+    /* стили для планшета */
+    .intro {
+        width: calc(100% - 48px);
+    }
+}
+
+@media screen and (max-width : 375px) {
+
+    /* стили для планшета */
+    .intro {
+        width: calc(100% - 32px);
+    }
+}
+

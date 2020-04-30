@@ -1,0 +1,36 @@
+.video__item-title {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 39px;
+    max-width: 322px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 18px;
+    margin-top: 12px;
+}
+
+@media screen and (max-width:768px) {
+
+    /* стили для планшета */
+    .video__item-title {
+        margin-bottom: 10px;
+        margin-top: 8px;
+        font-size: 24px;
+        line-height: 26px;
+    }
+}
+
+
+@media screen and (max-width:400px) {
+
+    /* стили для планшета */
+    .video__item-title {
+        margin-bottom: 10px;
+        margin-top: 8px;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 26px;
+
+
+    }
+}
