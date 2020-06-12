@@ -1,14 +1,14 @@
 .video__item_observatory:hover {
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-        url(../../../../images/observatory.jpg);
+        url(../../../../images/wyoming.jpg);
 }
 
 .video__item_observatory {
     /* width: 583px; */
     margin-right: 0;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
-    url(../../../../images/observatory.jpg);
+    url(../../../../images/wyoming.jpg);
     
 }
 

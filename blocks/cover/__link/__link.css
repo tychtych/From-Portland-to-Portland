@@ -1,6 +1,6 @@
 .cover__link:hover {
      background-image:
-          linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../../images/cover.jpg);
+          linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../../images/route-66.jpg);
 
 }
 
@@ -15,7 +15,7 @@
      position: relative;
      width: 100%;
      background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-          url(../../../images/cover.jpg);
+          url(../../../images/route-66.jpg);
      background-size: cover;
      color: #FFFFFF;
      margin-top: 102px;
